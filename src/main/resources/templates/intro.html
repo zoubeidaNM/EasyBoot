@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Intro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- This is embedded stylesheet. -->
+    <!-- adding fonts to website to make it more attractive. Use google fonts bt referencing the css on the Google Fonts APIs CDN-->
+    <link href="https://fonts.googleapis.com/css?family=Rozha+One|Roboto" rel="stylesheet"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <meta name ="viewport" content ="width=device=width, initial-scale=1"/>
+    <link rel="stylesheet"  href="css/firstpage.css"/>
+</head>
+
+<body>
+<p class="text-right">Today is: <span th:text="${todayname}"></span> </p>
+<p class="text-right">Current date is: <span th:text="${todaydate}"></span></p>
+<h1>Name</h1>
+<div>Zoubeida</div>
+<h2>Computer #</h2>
+<div>11</div>
+<h3>Favorite movie</h3>
+<div>Automn legends</div>
+<h4>Favorite quote</h4>
+<div>better safe then sorry</div>
+<h5>Favorite food</h5>
+<div>Tunisian Grilled Salad</div>
+<h6>Anything else</h6>
+<div>My kids are excited about the upcoming Thanksgiving</div><br />
+
+
+<!-- Latest compiled and minified JavaScript form jquery and the bootstrap-->
+<script
+        src="http://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
